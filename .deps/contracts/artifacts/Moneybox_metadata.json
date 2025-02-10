@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/contracts/Moneybox.sol": "Moneybox"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/contracts/Moneybox.sol": {
+			"keccak256": "0xffc681cc40901f158c6cebe1a6036f8105591fb004640b840b6550eac9f6f10a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://674c6aca5b8f765ebaa76b3fd4ca06821f20eab1a76352dfdf1881aa6213335d",
+				"dweb:/ipfs/QmRQjjV3ZsMqgphqz9kdxuZtwovvEGxCifm1msQq3sRunL"
+			]
+		}
+	},
+	"version": 1
+}
