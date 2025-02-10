@@ -19,6 +19,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "destAdd",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -51,11 +69,11 @@
 	},
 	"sources": {
 		".deps/contracts/Moneybox.sol": {
-			"keccak256": "0xffc681cc40901f158c6cebe1a6036f8105591fb004640b840b6550eac9f6f10a",
+			"keccak256": "0xd09c185af5d819c9cd6651e201d6b7a0cc5345684d2d298d9737ef6e8b502658",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://674c6aca5b8f765ebaa76b3fd4ca06821f20eab1a76352dfdf1881aa6213335d",
-				"dweb:/ipfs/QmRQjjV3ZsMqgphqz9kdxuZtwovvEGxCifm1msQq3sRunL"
+				"bzz-raw://1517ad62408aafe7b2eb1d5601029315947ba5627ec678fbf9db79f9612b1776",
+				"dweb:/ipfs/QmPH3fLzd1PaKUmksNcPbX5wJqXoGKo3DpdLbFVHEA8pHp"
 			]
 		}
 	},
